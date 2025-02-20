@@ -1,11 +1,11 @@
-# gioco sasso, carta, forbice
+# rock, paper, scissor
 
 import random
 
-#creo una funzione gioco
+
 def game():
     options = ["rock", "paper", "scissor"]
-    #permetto all'utente di scegliere la mossa o di uscire
+
     while True:
         print("choose: rock, paper, scissor or exit to quit")
         while True:
@@ -31,11 +31,6 @@ def game():
             print("Computer won")
 game()
 
-#eseguo la scelta automatica del computer
-
-
-
-#se scelta del computer = scelta ujtente > PAREGGIO
 
 
 # se scelta utente = sasso e computer = carta > WIN COMPUTER
