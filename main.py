@@ -1,7 +1,18 @@
-# sasso, carta, forbice 
+# gioco sasso, carta, forbice
+
+import random
 
 #creo una funzione gioco
-#permetto all'utente di scegliere la mossa o di uscire
+def game():
+    options = ["rock", "paper", "scissor"]
+
+    #permetto all'utente di scegliere la mossa o di uscire
+    while True:
+        print("choose: rock, paper, scissor or exit to quit")
+        user_choice = input("Your choice: ")
+
+        #if user_choice
+
 
 #eseguo la scelta automatica del computer
 
