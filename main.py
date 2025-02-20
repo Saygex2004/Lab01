@@ -5,7 +5,8 @@ import random
 
 def game():
     options = ["rock", "paper", "scissor"]
-
+    nickname = input("Insert your nickname:")
+    print(f"Welcome {nickname}")
     while True:
         print("choose: rock, paper, scissor or exit to quit")
         while True:
