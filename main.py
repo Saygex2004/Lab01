@@ -1,6 +1,8 @@
 # rock, paper, scissor
 
 import random
+import csv
+from idlelib.iomenu import encoding
 
 
 def game():
@@ -20,6 +22,11 @@ def game():
             user_choice = input("Your choice: ")
             if user_choice == "exit":
                 print("You left the game!")
+                with open("tabella.csv",mode= 'a', encoding='utf-8', newline='') as f:
+                    writer = csv.writer(f)
+                    #writer.writerow(["Nickname","Games_play","Win","Loss","Tie"])
+                    writer.writerow([nickname,games_play,user_win,user_lose,counter_tie])
+
                 return
             if user_choice not in options:
                 print("Invalid choice")
