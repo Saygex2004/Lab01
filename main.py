@@ -2,7 +2,6 @@
 
 import random
 import csv
-from idlelib.iomenu import encoding
 
 
 def game():
