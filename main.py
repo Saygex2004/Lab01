@@ -11,6 +11,8 @@ def game():
         print("choose: rock, paper, scissor or exit to quit")
         user_choice = input("Your choice: ")
 
+        computer_choice = random.choice["rock", "paper", "scissor"]
+
         if user_choice == "rock":
             ...
 
@@ -23,7 +25,7 @@ def game():
 
 #eseguo la scelta automatica del computer
 
-    random.choice["rock","paper","scissor"]
+
 
 #se scelta del computer = scelta ujtente > PAREGGIO
 
